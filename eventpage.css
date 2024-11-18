@@ -1,0 +1,161 @@
+#out{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+#left{
+    height: 780px;
+    width: 50%;
+    background-color:beige;
+    float:left;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-image: url(images/se.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h1{
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+margin: -60px;
+padding: 0px;
+font-size: 40px;
+margin-top: -520px;
+margin-left: -20px;
+position: absolute;
+}
+p{
+    font-weight: 500;
+    color:white;
+    font-display:inherit;
+    font-size: 20px;
+
+}
+
+#left1{
+   display: flex;
+    height: 600px;
+    width: 600px;
+    background-color: rgba(128, 128, 128, 0.607);
+  justify-content: space-around;
+    background-size: cover;
+    background-position:center;
+    margin-top: 70px;
+    margin-left: 30px;
+    
+   bottom: 20px;
+   align-items: center;
+   justify-content: center;
+   padding-top: 40px;
+
+
+}
+#left1:hover{
+    background-color: lightslategray
+}
+#right{
+    height: 780px;
+    width: 50%;
+    background-color: gray;
+    float: left;
+    margin-top:20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+#ab{
+    height: 200px;
+    width: 580px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#bc{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    float: left;
+}
+#bc:hover{
+    background-color:  lightslategray;
+}
+#cd{
+    height: 200px;
+    width: 320px;
+    background-color: white;
+    float:left;
+}
+
+#sec{
+    height: 200px;
+    width: 580px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 40px;
+    float: left;
+}
+#sec1{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    float: left;
+}
+#sec1:hover{
+    background-color:lightslategray;
+}
+#sec2{
+    height: 200px;
+    width: 320px;
+    background-color: white;
+    float:left;
+}
+#dec{
+    height: 200px;
+    width: 580px;
+    background-color: white;
+    margin-left: 2px;
+    margin-top: 40px;
+    float: left;
+}
+#dec1{
+    height: 200px;
+    width: 150px;
+    background-color: black;
+    float: left;
+}
+#dec1:hover{
+    background-color:lightslategray;
+}
+#dec2{
+    height: 200px;
+    width: 320px;
+    background-color: white;
+    float:left;
+    margin-left: 20px;
+}
+#helo1{
+    font-display: inherit;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+
+}
+#helo2{
+    font-size: 19px;
+ align-items: center;
+    color: black;
+    font-weight: 500;
+    transform: translate(0,-50%);
+    line-height: 2px;
+    padding-right:20px;
+    text-align: center;
+    padding-top: 10px;
+   
+ 
+    
+}
